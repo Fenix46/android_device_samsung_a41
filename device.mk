@@ -40,6 +40,9 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl.recovery \
     android.hardware.health@2.1-service
 
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
