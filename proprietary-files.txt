@@ -1997,3 +1997,4 @@ vendor/saiv/image_understanding/db/smartscan_verifier/document_verifier_cnn.tfli
 vendor/saiv/image_understanding/db/srr_interaction/srr_interaction_cnn.tf
 vendor/ro.prop
 vendor/rw.prop
+
