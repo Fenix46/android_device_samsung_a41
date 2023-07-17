@@ -12,10 +12,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth.audio@2.0-impl
+    android.hardware.bluetooth.audio@2.1 \
+    android.hardware.audio.effect@7.0 \
+    android.hardware.audio.common@7.0 \
+    android.hardware.audio@7.0
 
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
+    audio.primary.mt6768 \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default
