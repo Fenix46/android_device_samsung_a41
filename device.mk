@@ -71,5 +71,9 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.3
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/samsung/a41/a41-vendor.mk)
