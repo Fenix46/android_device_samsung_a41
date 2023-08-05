@@ -95,6 +95,10 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    hardware/google/interfaces \
+    hardware/google/pixel \
+    hardware/mediatek \
+    hardware/samsung \
     $(LOCAL_PATH)
 
 # Vibrator
